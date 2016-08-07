@@ -1,3 +1,3 @@
-# IMDB [![npm version](https://img.shields.io/npm/v/smithers-imdb.svg?style=flat)](https://www.npmjs.com/package/smithers-imdb)
+# Devtools [![npm version](https://img.shields.io/npm/v/smithers-devtools.svg?style=flat)](https://www.npmjs.com/package/smithers-devtools)
 
-An imdb plugin for the [Smithers Assistant](https://github.com/SmithersAssistant/smithers).
+A devtools plugin for the [Smithers Assistant](https://github.com/SmithersAssistant/smithers).
