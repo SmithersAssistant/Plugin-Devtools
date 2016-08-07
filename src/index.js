@@ -1,4 +1,3 @@
-import React from 'react'
 import {remote} from 'electron'
 const {app, getCurrentWindow} = remote
 
