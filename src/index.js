@@ -3,6 +3,11 @@ const {app, getCurrentWindow} = remote
 
 export default robot => {
 
+  const restart = () => {
+    app.relaunch();
+    app.quit();
+  };
+
   robot.listen(/^restart$/, {
     description: "Restart",
     usage: 'restart'

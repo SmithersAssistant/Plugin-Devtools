@@ -11,6 +11,11 @@ var getCurrentWindow = _electron.remote.getCurrentWindow;
 
 exports.default = function (robot) {
 
+  var restart = function restart() {
+    app.relaunch();
+    app.quit();
+  };
+
   robot.listen(/^restart$/, {
     description: "Restart",
     usage: 'restart'
