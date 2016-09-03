@@ -1,8 +1,13 @@
 {
   "name": "smithers-devtools",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A devtools plugin for the Smithers Assistant",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmithersAssistant/Plugin-Devtools.git"
+  },
+  "homepage": "https://github.com/SmithersAssistant/Plugin-Devtools",
   "keywords": [
     "smithers",
     "assistant",
