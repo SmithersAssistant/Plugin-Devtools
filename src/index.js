@@ -1,5 +1,5 @@
-import {remote} from 'electron'
-const {app, getCurrentWindow} = remote
+import { remote } from 'electron'
+const { app, getCurrentWindow } = remote
 
 export default robot => {
 
